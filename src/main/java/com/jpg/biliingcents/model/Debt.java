@@ -21,8 +21,8 @@ public class Debt extends CommonEntity {
     private String description;
 
     @Column(name = "debt_initial")
-    private String debtInitial;
+    private Float debtInitial;
 
     @Column(name = "debt_total")
-    private String debtTotal;
+    private Float debtTotal;
 }
