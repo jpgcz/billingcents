@@ -15,13 +15,13 @@ public class Movement extends CommonEntity {
     private Integer movId;
 
     @Column(name = "mov_name")
-    private Integer movName;
+    private String movName;
 
     @Column(name = "note")
-    private Integer note;
+    private String note;
 
     @Column(name = "total")
-    private Integer total;
+    private Float total;
 
     @Column(name = "account_id")
     private Integer accountId;
@@ -33,5 +33,5 @@ public class Movement extends CommonEntity {
     private Integer debtId;
 
     @Column(name = "mov_type")
-    private Integer movType;
+    private String movType;
 }

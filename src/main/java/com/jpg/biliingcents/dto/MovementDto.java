@@ -6,17 +6,17 @@ import java.util.Date;
 
 @Data
 public class MovementDto {
-    private Integer movName;
+    private String movName;
 
-    private Integer note;
+    private String note;
 
-    private Integer total;
+    private Float total;
 
     private Integer accountId;
 
     private Integer catId;
 
-    private Integer movType;
+    private String movType;
 
     protected Date creationDate;
 }

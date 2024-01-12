@@ -21,8 +21,8 @@ public class Account extends CommonEntity{
     private String bank;
 
     @Column(name = "initial_amount")
-    private String initialAmount;
+    private Float initialAmount;
 
     @Column(name = "current_amount")
-    private String currentAmount;
+    private Float currentAmount;
 }
