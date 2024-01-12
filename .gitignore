@@ -33,4 +33,4 @@ build/
 .vscode/
 
 # Local configuration file (sdk path, etc)
-application.properties
+src/main/resources/application.properties
